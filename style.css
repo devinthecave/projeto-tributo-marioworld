@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gasoek One", sans-serif;
+}
+body{
+   background-color: #0162b7;
+    margin: auto;
+    padding: 20px 100px 20px 100px;
+}
+body::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0,222,255,0.9);
+    height: 4500px;
+    width: 80%;
+    background-position: center;
+    
+}
+.page{
+    z-index: 2;
+    position: absolute;
+    width: 80%;
+    padding: 10px 100px 40px 100px;
+   
+}
+hr{
+    margin: 20px 0;
+}
+
+h1,h2,h3{
+    margin: 20px 0;
+    color: #ff3a3a;
+}
+
+h1{
+    font-size: 50px;
+}
+h2,h3{
+    font-size: 40px;
+}
+h1:hover{
+    color: #fd0e0e;
+    cursor: pointer;
+    font-size: 60px;
+}
+h2:hover{
+    color: #fd0e0e;
+    cursor: pointer;
+    font-size: 50px;
+}
+h3:hover{
+    color: #fd0e0e;
+    cursor: pointer;
+    font-size: 50px;
+}
+
+p{
+    font-size: 25px;
+    color: #e7b923;
+    line-height: 35px;
+    margin: 15px 0;
+}
+p:hover{
+    color: #bb9107;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+
+.img1, .img2{
+    width: 800px;
+    margin-top: 20px;
+}
+
+figcaption{
+    font-size: 15px;
+    color: #00ce00;
+}
+figcaption:hover{
+    font-size: 30px;
+    color: #029402;
+    cursor: pointer;
+}
+.cite, small{
+    color: #00ce00;
+    font-size: 20px;
+}
+.cite:hover{
+    font-size: 30px;
+    color: #029402;
+    cursor: pointer;
+
+}
+small{
+    font-size: 14px;
+}
+small:hover{
+    font-size: 30px;
+    color: #029402;
+    cursor: pointer;
+
+}
+ul li{
+    line-height: 30px;
+    margin-bottom: 20px;
+    list-style-position: inside;
+}
+.li-1{
+    color: #ff3a3a;
+}
+.li-2{
+    color: #e7b923;
+}
+.li-3{
+    color: #ff3a3a;
+}
+.li-4{
+    color: #e7b923;
+}
+.li-5{
+    color: #ff3a3a;
+}
+.li-1:hover{
+    color: #fd0e0e;
+    cursor: pointer;
+    font-size: 30px;
+}
+.li-2:hover{
+    color: #bb9107;
+    cursor: pointer;
+    font-size: 30px;
+}
+.li-3:hover{
+    color: #fd0e0e;
+    cursor: pointer;
+    font-size: 30px;
+}
+.li-4:hover{
+    color: #bb9107;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+.li-5:hover{
+    color: #fd0e0e;
+    cursor: pointer;
+    font-size: 28px;
+}
+a{
+    color: #00ce00;
+    font-size: 20px;
+}
+a:hover{
+    font-size: 30px;
+    color: #029402;
+    cursor: pointer;
+}
+/*cores das letras
+vermelho: #ff3a3a
+amarelo: #ffce29
+verde: #00ce00
+azul: #00deff
+
+*/

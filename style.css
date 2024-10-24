@@ -69,9 +69,13 @@ p:hover{
 }
 
 
-.img1, .img2{
+.img1{
     width: 800px;
     margin-top: 20px;
+}
+.img2{
+    width: 800px;
+    margin-top: 60px;
 }
 
 figcaption{
@@ -83,13 +87,17 @@ figcaption:hover{
     color: #029402;
     cursor: pointer;
 }
+.blockquote-1, .blockquote-2{
+    padding: 20px 30px 20px 30px;
+    background-color: #ff3a3a;
+}
 .cite, small{
     color: #00ce00;
     font-size: 20px;
 }
 .cite:hover{
     font-size: 30px;
-    color: #029402;
+    color: #025c02;
     cursor: pointer;
 
 }
@@ -98,7 +106,7 @@ small{
 }
 small:hover{
     font-size: 30px;
-    color: #029402;
+    color: #025c02;
     cursor: pointer;
 
 }
@@ -154,7 +162,7 @@ a{
 }
 a:hover{
     font-size: 30px;
-    color: #029402;
+    color: #025c02;
     cursor: pointer;
 }
 /*cores das letras
